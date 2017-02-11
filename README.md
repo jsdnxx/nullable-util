@@ -13,7 +13,7 @@ const collection = [1, 2, 3, 4, 5]
 util.first(collection)
 // => Nullable.of(1)
 
-util.first(collection. x => x > 3)
+util.first(collection, x => x > 3)
 // => Nullable.of(4)
 
 util.last(collection)
@@ -35,12 +35,12 @@ const users = {
 }
 
 util.first(users)
-// => ['1', {name: 'A', admin: false}]
+// => Nullable.of(['1', {name: 'A', admin: false}])
 // This returns a [key, value] pair as a 2-element Array.
 // Note, Object property names are always strings.
 
 util.first(users, user => user.admin)
-// => ['2', {name: 'B', admin: true}]
+// => Nullable.of(['2', {name: 'B', admin: true}])
 
 ```
 
