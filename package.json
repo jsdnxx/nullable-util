@@ -1,18 +1,26 @@
 {
   "name": "nullable-util",
-  "author": "jden <jason@denizac.org>",
+  "author": "jsdnxx",
   "version": "1.0.0",
   "description": "utility functions with Nullable",
-  "keywords": ["nullable", "option", "optional"],
+  "keywords": [
+    "nullable",
+    "option",
+    "optional"
+  ],
   "main": "index.js",
   "scripts": {
-    "test": "standard && mochi"
+    "test": "standard && mocha"
   },
-  "repository": "git@github.com:jden/nullable-util.git",
+  "repository": "git@github.com:jsdnxx/nullable-util.git",
   "license": "ISC",
   "readmeFilename": "README.md",
+  "dependencies": {
+    "nullable": "^2.0.0"
+  },
   "devDependencies": {
-    "mochi": "0.3.0",
-    "standard": "^4.0.1"
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "standard": "^8.6.0"
   }
 }
