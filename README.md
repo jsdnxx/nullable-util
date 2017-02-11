@@ -49,7 +49,7 @@ ES6 collections (Set and Map, but not WeakSet or WeakMap which are not iterable)
 
 `first` can also operate on generators, but not `last` since generators may be infinite.
 
-See test suite for more examples.
+See [test suite](https://github.com/jsdnxx/nullable-util/blob/master/test/test.js) for more examples.
 
 
 ## installation
@@ -67,4 +67,4 @@ From package root:
 
 ## license
 
-ISC. (c) MMXVII jsdnxxSee LICENSE.md
+ISC. (c) MMXVII [jsdnxx](https://github.com/jsdnxx). See LICENSE.md
