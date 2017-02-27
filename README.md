@@ -1,4 +1,4 @@
-# nullable-util [![Build Status](https://travis-ci.org/jsdnxx/nullable-util.svg?branch=master)](https://travis-ci.org/jsdnxx/nullable-util)
+# nullable-util [![Build Status](https://travis-ci.org/jsdnxx/nullable-util.svg?branch=master)](https://travis-ci.org/jsdnxx/nullable-util) [![npm](https://img.shields.io/npm/v/nullable-util.svg)](https://www.npmjs.com/package/nullable-util)
 utility functions with Nullable
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
